@@ -87,3 +87,11 @@ Processing by PostsController#index as HTML
   [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
   Rendered posts/index.html.erb within layouts/application (3.8ms)
 Completed 200 OK in 31ms (Views: 26.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for 75.18.105.79 at 2018-06-24 02:55:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 260ms (Views: 247.5ms | ActiveRecord: 0.2ms)
